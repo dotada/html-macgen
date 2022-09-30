@@ -12,7 +12,7 @@ function generate() {
             return value.toString(16);
         }
     }
-    mac = mac.map(hex).join(':');
+    mac = mac.map(hex).join('-');
     $('#target').text(mac);
 }
 
